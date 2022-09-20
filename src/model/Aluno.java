@@ -49,4 +49,10 @@ public class Aluno {
         this.nome = nome;
     }
     
+    @Override
+    public String toString() {
+        return "Nome:  " + getNome()
+                + "\nRA:  " + getRa();
+    }
+    
 }
